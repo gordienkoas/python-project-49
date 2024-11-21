@@ -1,6 +1,6 @@
-import prompt
-
-
 def welcome_user():
-    name = prompt.string('May I have your name? ')
-    return print(f'Hello, {name}')
+    global name
+    print('May I have your name? ', end='')
+    name = str(input())
+    print(f'Hello, {name}')
+    return name
