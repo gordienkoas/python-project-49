@@ -4,6 +4,9 @@
 <a href="https://codeclimate.com/github/gordienkoas/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/8726b1ed6c0953930392/maintainability" /></a>
 
 
-### asciinema
+### asciinema brain-even
 
-  https://asciinema.org/a/NxJ7cy5pj7ADZicDpRe1zox9e
+https://asciinema.org/a/NxJ7cy5pj7ADZicDpRe1zox9e
+  
+### asciinema brain-calc
+https://asciinema.org/a/X9Ej4hL32CFlLfYCYZ2uYMxvR
