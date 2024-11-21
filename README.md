@@ -6,4 +6,4 @@
 
 ### asciinema
 
- https://asciinema.org/connect/84b795e5-d8e5-464d-89c6-8d0d752d8ab3
+  https://asciinema.org/a/NxJ7cy5pj7ADZicDpRe1zox9e
