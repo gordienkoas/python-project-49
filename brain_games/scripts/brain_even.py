@@ -24,10 +24,14 @@ def main():
                 print(f'Congratulations, {name}!')
                 break
         else:
-            print("'yes' is wrong answer ;( .Correct answer was 'no'.")
-            print(f"Let's try again, {name}!")
-            break
-
+            if x == 'yes':
+                print("'yes' is wrong answer ;( .Correct answer was 'no'.")
+                print(f"Let's try again, {name}!")
+                break
+            else:
+                print("'no' is wrong answer ;( .Correct answer was 'yes'.")
+                print(f"Let's try again, {name}!")
+                break
 
 welcome_user()
 

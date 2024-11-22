@@ -3,6 +3,25 @@
 
 <a href="https://codeclimate.com/github/gordienkoas/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/8726b1ed6c0953930392/maintainability" /></a>
 
+INSTALLATION:
+
+Install using pip:
+
+pip install git+https://github.com/gordienkoas/python-project-49.git
+
+INSTRUCTIONS:
+
+This is a five math games:
+
+Calculator
+To win this games you have to solve three math tasks
+
+To start the game run brain-calc
+
+Even numbers
+To win this game you have to give an answer is given number even or not
+
+To start the game run brain-even
 
 ### asciinema brain-even
 
