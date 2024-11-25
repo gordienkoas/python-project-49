@@ -19,7 +19,7 @@ def is_prime(number):
 
 
 def main():
-    print('Answer "yes" if given number is prime. Otherwise answer "no"')
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     count = 0
     for i in range(0, 3):
         check_number = random.randint(1, 99)
