@@ -13,7 +13,7 @@ INSTRUCTIONS:
 
 This is a five math games:
 
-Calculator
+1. Calculator
 To win this games you have to solve three math tasks
 
 To start the game run brain-calc
@@ -21,7 +21,7 @@ To start the game run brain-calc
 ### asciinema brain-calc
 https://asciinema.org/a/X9Ej4hL32CFlLfYCYZ2uYMxvR
 
-Even numbers
+2. Even numbers
 To win this game you have to give an answer is given number even or not
 
 To start the game run brain-even
@@ -30,8 +30,7 @@ To start the game run brain-even
 
 https://asciinema.org/a/NxJ7cy5pj7ADZicDpRe1zox9e
   
-
-
+3. Greatest common dividor
 To win this game you have to find a GCD of three pairs of numbers
 
 To start the game run brain-gcd
@@ -39,3 +38,12 @@ To start the game run brain-gcd
 ### asciinema brain-gcd
 
 https://asciinema.org/a/vXDJjkVmAtgXIvruPdxjZogEK
+
+4. Progression
+To win this game you have to find the missing number in progression
+
+To start the game run brain-progression
+
+### asciinema brain-progression
+
+https://asciinema.org/a/YcdjL9t9un9hHuZkLwmIMC0x7

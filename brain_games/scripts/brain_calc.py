@@ -1,12 +1,8 @@
 import random
+from brain_games.cli import welcome_user
 
 
-def welcome_user():
-    global name
-    print('May I have your name? ', end='')
-    name = str(input())
-    print(f'Hello, {name}')
-    return name
+name = welcome_user()
 
 
 def main():
@@ -46,7 +42,6 @@ def main():
                 print(f'{x} is wrong answer ;(.Correct answer was {proizved}."')
                 print(f"Let's try again, {name}!")
                 break
-
     if count == 3:
         print(f'Congratulations, {name}!')
 

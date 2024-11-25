@@ -1,13 +1,9 @@
 import random
 import math
+from brain_games.cli import welcome_user
 
 
-def welcome_user():
-    global name
-    print('May I have your name? ', end='')
-    name = str(input())
-    print(f'Hello, {name}')
-    return name
+name = welcome_user()
 
 
 def main():
@@ -30,8 +26,6 @@ def main():
             print(f"Let's try again, {name}!")
             break
 
-
-welcome_user()
 
 if __name__ == '__main__':
     main()
