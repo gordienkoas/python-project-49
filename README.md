@@ -47,3 +47,13 @@ To start the game run brain-progression
 ### asciinema brain-progression
 
 https://asciinema.org/a/YcdjL9t9un9hHuZkLwmIMC0x7
+
+
+5. Prime numbers
+To win this game you have to give an answer ig given number prime or not
+
+To start the game run brain-prime
+
+### asciinema brain-prime
+
+https://asciinema.org/a/9uDga9reb5JCHnN0erHRuDm3a

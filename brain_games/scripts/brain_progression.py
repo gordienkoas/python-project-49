@@ -10,7 +10,7 @@ def main():
     count = 0
     for i in range(0, 3):
         ls = []
-        start_progr = random.randint(2,20)
+        start_progr = random.randint(2, 20)
         num_progr = random.randint(3, 5)
         for i in range(10):
             hide_elem = random.randint(1, 9)
