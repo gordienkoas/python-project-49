@@ -46,7 +46,5 @@ def main():
         print(f'Congratulations, {name}!')
 
 
-welcome_user()
-
 if __name__ == '__main__':
     main()
