@@ -8,6 +8,7 @@ def welcome_user():
     print(f'Hello, {name}')
     return name
 
+
 def main():
     print('What is the result of the expression?')
     count = 0
@@ -17,8 +18,8 @@ def main():
         rnd2 = random.randint(1, 10)
         if rnd1 < rnd2:
             rnd1, rnd2 == rnd2, rnd1
-        rnd_op = random.choice(['-','+','*'])
-        print('Question:', rnd1,rnd_op,rnd2, end=' ')
+        rnd_op = random.choice(['-', '+', '*'])
+        print('Question:', rnd1, rnd_op, rnd2, end=' ')
         x = int(input())
         if rnd_op == '+' and rnd1 + rnd2 == x:
             print('Correct!')
@@ -42,7 +43,7 @@ def main():
                 break
             else:
                 proizved = rnd1 * rnd2
-                print(f'{x} is wrong answer ;( .Correct answer was {proizved}."')
+                print(f'{x} is wrong answer ;(.Correct answer was {proizved}."')
                 print(f"Let's try again, {name}!")
                 break
 
