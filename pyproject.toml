@@ -2,7 +2,7 @@
 name = "hexlet-code"
 version = "0.1.0"
 description = "Brain-games. My frist project."
-authors = "Gordienko Andrey gordienkoas@bk.ru"
+authors = ["Gordienko Andrey, gordienkoas@bk.ru"]
 readme = "README.md"
 packages = [
     { include = "brain_games"},
