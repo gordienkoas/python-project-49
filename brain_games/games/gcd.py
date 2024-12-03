@@ -1,5 +1,5 @@
-from random import randint
 from math import gcd
+from random import randint
 
 DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 START = 1

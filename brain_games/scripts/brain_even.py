@@ -2,7 +2,6 @@
 
 from brain_games.engine import play
 from brain_games.games import even
-from brain_games.games_const import DESCRIPTION_calc,START_calc,STOP_calc
 
 
 def main():

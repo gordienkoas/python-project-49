@@ -1,7 +1,9 @@
-from random import randint, choice
+from random import choice, randint
+
 from brain_games.games_const import DESCRIPTION_calc, START_calc, STOP_calc
 
 DESCRIPTION = DESCRIPTION_calc
+
 
 def generate_question_and_answer():
 
