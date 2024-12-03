@@ -1,9 +1,9 @@
-import prompt
 from brain_games.games_const import ROUNDS
+import prompt
 
 
 def play(game_module):
-    name = prompt.string('Welcome to the Brain Games!\nMay I have your name?')
+    name = prompt.string('Welcome to the Brain Games!\nMay I have your name? ')
     print(f'Hello, {name}\n{game_module.DESCRIPTION}')
 
     for _ in range(ROUNDS):
