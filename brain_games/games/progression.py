@@ -1,20 +1,16 @@
 from random import randint
+from brain_games.games_const import DESCRIPTION_progr, STEP_START, STEP_STOP
+from brain_games.games_const import PR_LENG_STOP, PR_LENG_START, START, STOP_50
 
-DESCRIPTION = 'What number is missing in the progression?'
-START = 1
-STOP = 50
-STEP_START = 3
-STEP_STOP = 10
-PROGRESSION_LENGTH_START = 5
-PROGRESSION_LENGTH_STOP = 10
+DESCRIPTION = DESCRIPTION_progr
 
 
 def generate_question_and_answer():
 
     progression = []
-    number = randint(START, STOP)
+    number = randint(START, STOP_50)
     step = randint(STEP_START, STEP_STOP)
-    for _ in range(randint(PROGRESSION_LENGTH_START, PROGRESSION_LENGTH_STOP)):
+    for _ in range(randint(PR_LENG_START, PR_LENG_STOP)):
         progression.append(number)
         number = number + step
     correct_answer = progression[randint(0, len(progression) - 1)]

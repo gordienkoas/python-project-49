@@ -1,8 +1,7 @@
 from random import randint
+from brain_games.games_const import START, STOP_100, DESCRIPTION_prime
 
-DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-START = 1
-STOP = 100
+DESCRIPTION = DESCRIPTION_prime
 
 
 def generate_question_and_answer():
@@ -17,7 +16,7 @@ def generate_question_and_answer():
                 return False
         return True
 
-    number = randint(START, STOP)
+    number = randint(START, STOP_100)
     question = f'{number}'
 
     if is_prime(number):

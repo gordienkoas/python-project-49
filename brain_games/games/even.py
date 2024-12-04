@@ -1,8 +1,7 @@
 from random import randint
+from brain_games.games_const import DESCRIPTION_even, START, STOP_100
 
-DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
-START = 1
-STOP = 100
+DESCRIPTION = DESCRIPTION_even
 
 
 def generate_question_and_answer():
@@ -13,7 +12,7 @@ def generate_question_and_answer():
         else:
             return False
 
-    number = randint(START, STOP)
+    number = randint(START, STOP_100)
     question = f'{number}'
 
     if is_even(number):

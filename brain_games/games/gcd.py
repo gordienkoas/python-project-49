@@ -1,16 +1,14 @@
 from math import gcd
 from random import randint
+from brain_games.games_const import START, STOP, DESCRIPTION_gcd
 
-DESCRIPTION = 'Find the greatest common divisor of given numbers.'
-START = 1
-STOP = 10
+
+DESCRIPTION = DESCRIPTION_gcd
 
 
 def generate_question_and_answer():
-
-    a = randint(START, STOP)
-    b = randint(START, STOP)
-    question = f'{a} {b}'
-    correct_answer = gcd(a, b)
+    num1, num2 = randint(START, STOP), randint(START, STOP)
+    question = f'{num1} {num2}'
+    correct_answer = gcd(num1, num2)
 
     return question, str(correct_answer)
