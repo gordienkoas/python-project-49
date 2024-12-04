@@ -1,6 +1,6 @@
-from brain_games.games_const import ROUNDS
-
 import prompt
+
+from brain_games.games_const import ROUNDS
 
 
 def play(game_module):
