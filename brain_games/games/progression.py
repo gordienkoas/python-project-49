@@ -7,10 +7,10 @@ from brain_games.games_const import (
     STEP_START,
     STEP_STOP,
     STOP_50,
-    DESCRIPTION_progr,
+    DESCRIPT_progr,
 )
 
-DESCRIPTION = DESCRIPTION_progr
+DESCRIPTION = DESCRIPT_progr
 
 
 def generate_question_and_answer():
