@@ -1,4 +1,5 @@
 import prompt
+
 from brain_games.games_const import ROUNDS
 
 

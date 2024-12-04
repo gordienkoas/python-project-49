@@ -16,7 +16,7 @@ STOP_100 = 100
 DESCRIPTION_prime = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 # progression
-DESCRIPTION_progr = 'What number is missing in the progression?'
+DESCRIPT_progr = 'What number is missing in the progression?'
 STOP_50 = 50
 STEP_START = 3
 STEP_STOP = 10

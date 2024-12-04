@@ -1,8 +1,8 @@
 from random import randint
 
-from brain_games.games_const import START, STOP_100, DESCRIPTION_prime
+from brain_games.games_const import START, STOP_100, DESCRIPT_prime
 
-DESCRIPTION = DESCRIPTION_prime
+DESCRIPTION = DESCRIPT_prime
 
 
 def generate_question_and_answer():
