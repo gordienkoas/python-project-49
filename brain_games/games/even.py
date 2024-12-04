@@ -1,5 +1,6 @@
 from random import randint
-from brain_games.games_const import DESCRIPTION_even, START, STOP_100
+
+from brain_games.games_const import START, STOP_100, DESCRIPTION_even
 
 DESCRIPTION = DESCRIPTION_even
 

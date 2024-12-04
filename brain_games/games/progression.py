@@ -1,6 +1,14 @@
 from random import randint
-from brain_games.games_const import DESCRIPTION_progr, STEP_START, STEP_STOP
-from brain_games.games_const import PR_LENG_STOP, PR_LENG_START, START, STOP_50
+
+from brain_games.games_const import (
+    PR_LENG_START,
+    PR_LENG_STOP,
+    START,
+    STEP_START,
+    STEP_STOP,
+    STOP_50,
+    DESCRIPTION_progr,
+)
 
 DESCRIPTION = DESCRIPTION_progr
 

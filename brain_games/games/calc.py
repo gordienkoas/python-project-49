@@ -1,6 +1,6 @@
 from random import choice, randint
 
-from brain_games.games_const import DESCRIPTION_calc, START, STOP
+from brain_games.games_const import START, STOP, DESCRIPTION_calc
 
 DESCRIPTION = DESCRIPTION_calc
 

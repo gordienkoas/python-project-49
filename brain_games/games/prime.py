@@ -1,4 +1,5 @@
 from random import randint
+
 from brain_games.games_const import START, STOP_100, DESCRIPTION_prime
 
 DESCRIPTION = DESCRIPTION_prime

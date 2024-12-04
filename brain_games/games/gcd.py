@@ -1,7 +1,7 @@
 from math import gcd
 from random import randint
-from brain_games.games_const import START, STOP, DESCRIPTION_gcd
 
+from brain_games.games_const import START, STOP, DESCRIPTION_gcd
 
 DESCRIPTION = DESCRIPTION_gcd
 
