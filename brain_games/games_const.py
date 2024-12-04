@@ -13,7 +13,7 @@ DESCRIPTION_even = 'Answer "yes" if the number is even, otherwise answer "no".'
 STOP_100 = 100
 
 # games prime
-DESCRIPTION_prime = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+DESCRIPT_prime = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 # progression
 DESCRIPT_progr = 'What number is missing in the progression?'
