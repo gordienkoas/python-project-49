@@ -15,7 +15,7 @@ dist/
 
 # Byte-compiled / optimized / DLL files
 brain_games/__pycache__
-
+__pycache__
 
 
 
