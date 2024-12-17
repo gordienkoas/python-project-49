@@ -6,9 +6,6 @@
 # Используемый стэк:     
 
 Package operations:
-  - mccabe (0.7.0)  
-  - pycodestyle (2.12.1)
-  - pyflakes (3.2.0) 
   - flake8 (7.1.1)
   - prompt (0.4.1)
 
