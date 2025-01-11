@@ -1,6 +1,6 @@
-from random import randint
-
-from brain_games.games_const import START, STOP_100, DESCRIPTION_even
+from brain_games.games_const import DESCRIPTION_even
+from brain_games.utility import get_random_number
+from brain_games.engine import play
 
 DESCRIPTION = DESCRIPTION_even
 
@@ -8,13 +8,12 @@ DESCRIPTION = DESCRIPTION_even
 def generate_question_and_answer():
 
     def is_even(number):
-        if number % 2 == 0:
-            return True
-        else:
-            return False
+        return number % 2 == 0
 
-    number = randint(START, STOP_100)
+    number = get_random_number(1, 100)
     question = f'{number}'
+
+
 
     if is_even(number):
         correct_answer = 'yes'
@@ -22,3 +21,6 @@ def generate_question_and_answer():
         correct_answer = 'no'
 
     return question, correct_answer
+
+def run_even_game():
+    play(generate_question_and_answer, DESCRIPTION)

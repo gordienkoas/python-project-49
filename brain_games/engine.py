@@ -3,12 +3,12 @@ import prompt
 from brain_games.games_const import ROUNDS
 
 
-def play(game_module):
+def play(generate_question_and_answer, DESCRIPTION):
     name = prompt.string("Welcome to the Brain Games!\nMay I have your name? ")
-    print(f"Hello, {name}\n{game_module.DESCRIPTION}")
+    print(f"Hello, {name}\n{DESCRIPTION}")
 
     for _ in range(ROUNDS):
-        question, correct_answer = game_module.generate_question_and_answer()
+        question, correct_answer = generate_question_and_answer()
 
         print(f"Question: {question}")
         answer = prompt.string("Your answer: ")
