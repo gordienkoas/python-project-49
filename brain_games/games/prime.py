@@ -1,8 +1,7 @@
-from random import randint
-
 from brain_games.games_const import DESCRIPT_prime
 from brain_games.utility import get_random_number
 from brain_games.engine import play
+
 
 def generate_question_and_answer():
 

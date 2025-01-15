@@ -6,6 +6,7 @@ from brain_games.engine import play
 def is_even(num):
     return num % 2 == 0
 
+
 def generate_question_and_answer():
     number = get_random_number(1, 100)
     question = f'{number} is even. yes or no?'

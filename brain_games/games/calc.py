@@ -1,23 +1,26 @@
-from random import choice
+import random
+
 
 from brain_games.games_const import DESCRIPTION_calc
 from brain_games.engine import play
 from brain_games.utility import get_random_number
 
 
-def generate_question_and_answer():
+def get_rnd_math_sign_and_result(first_num, second_num):
+    return random.choice([
+        ('+', first_num + second_num),
+        ('-', first_num - second_num),
+        ('*', first_num * second_num)
+    ])
 
-    operation = choice(['+', '-', '*'])
-    num_1 = get_random_number(1,10)
-    num_2 = get_random_number(1, 10)
-    question = f'{num_1} {operation} {num_2}'
-    if operation == '+':
-        correct_answer = num_1 + num_2
-    elif operation == '-':
-        correct_answer = num_1 - num_2
-    elif operation == '*':
-        correct_answer = num_1 * num_2
+
+def generate_question_and_answer():
+    first_num = get_random_number(1, 10)
+    second_num = get_random_number(1, 10)
+    sign, correct_answer = get_rnd_math_sign_and_result(first_num, second_num)
+    question = f"{first_num} {sign} {second_num}?"
     return question, str(correct_answer)
+
 
 def run_calc_game():
     play(generate_question_and_answer, DESCRIPTION_calc)
