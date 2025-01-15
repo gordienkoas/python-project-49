@@ -1,23 +1,22 @@
 from random import randint
 
-from brain_games.games_const import START, STOP_100, DESCRIPT_prime
-
-DESCRIPTION = DESCRIPT_prime
-
+from brain_games.games_const import DESCRIPT_prime
+from brain_games.utility import get_random_number
+from brain_games.engine import play
 
 def generate_question_and_answer():
 
-    def is_prime(n):
-
-        if n == 1 or n == 0:
+    def is_prime(num):
+        if num < 2:
             return False
 
-        for i in range(2, (int(n**0.5) + 1)):
-            if n % i == 0:
+        for i in range(2, int(num ** 0.5) + 1):
+            if num % i == 0:
                 return False
+
         return True
 
-    number = randint(START, STOP_100)
+    number = get_random_number(1, 100)
     question = f'{number}'
 
     if is_prime(number):
@@ -26,3 +25,7 @@ def generate_question_and_answer():
         correct_answer = 'no'
 
     return question, correct_answer
+
+
+def run_prime_game():
+    play(generate_question_and_answer, DESCRIPT_prime)
