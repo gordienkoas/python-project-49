@@ -8,7 +8,7 @@ def generate_question_and_answer():
     progression = []
     number = get_random_number(1, 50)
     step = get_random_number(1, 5)
-    for _ in range(get_random_number(8, 10)):
+    for _ in range(get_random_number(10, 10)):
         progression.append(number)
         number = number + step
     correct_answer = progression[get_random_number(1, len(progression) - 1)]
