@@ -73,4 +73,4 @@ To start the game run brain-prime
 https://asciinema.org/a/UqN9kMz1B5anbX2bntS1fIUv0
 
 
-[![asciicast](# ссылка на аскинему)]
+[![asciicast](https://github.com/gordienkoas/python-project-49/blob/main/asciinema/even.gif)]
