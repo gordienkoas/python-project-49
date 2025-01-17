@@ -36,7 +36,7 @@ To win this games you have to solve three math tasks
 To start the game run brain-calc
 
 ### asciinema brain-calc
-https://asciinema.org/a/X9Ej4hL32CFlLfYCYZ2uYMxvR
+[![asciicast](#https://asciinema.org/a/wBzUOahFrbI5obFHs8lYBfJkp)
 
 2. Even numbers
 To win this game you have to give an answer is given number even or not
