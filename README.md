@@ -44,7 +44,7 @@ To win this game you have to give an answer is given number even or not
 To start the game run brain-even
 
 ### asciinema brain-even
-https://asciinema.org/a/f8f1AkcRyO88zgjQTaSJlWWw4
+![asciicast](https://github.com/gordienkoas/python-project-49/blob/main/asciinema/even.gif)
   
 3. Greatest common dividor
 To win this game you have to find a GCD of three pairs of numbers
@@ -73,4 +73,3 @@ To start the game run brain-prime
 https://asciinema.org/a/UqN9kMz1B5anbX2bntS1fIUv0
 
 
-[![asciicast](https://github.com/gordienkoas/python-project-49/blob/main/asciinema/even.gif)]
