@@ -36,8 +36,7 @@ To win this games you have to solve three math tasks
 To start the game run brain-calc
 
 ### asciinema brain-calc
-https://asciinema.org/a/wBzUOahFrbI5obFHs8lYBfJkp
-
+![asciicast](https://github.com/gordienkoas/python-project-49/blob/main/asciinema/calc.gif)
 2. Even numbers
 To win this game you have to give an answer is given number even or not
 
@@ -52,7 +51,7 @@ To win this game you have to find a GCD of three pairs of numbers
 To start the game run brain-gcd
 
 ### asciinema brain-gcd
-https://asciinema.org/a/OsH58Au08t3tSyO3r5suQG53m
+![asciicast](https://github.com/gordienkoas/python-project-49/blob/main/asciinema/gcd2.gif)
 
 
 4. Progression
@@ -61,7 +60,7 @@ To win this game you have to find the missing number in progression
 To start the game run brain-progression
 
 ### asciinema brain-progression
-https://asciinema.org/a/Xo1WZrpW7DimE20mFpbYEVWTY
+![asciicast](https://github.com/gordienkoas/python-project-49/blob/main/asciinema/prog.gif)
 
 
 5. Prime numbers
@@ -70,6 +69,6 @@ To win this game you have to give an answer ig given number prime or not
 To start the game run brain-prime
 
 ### asciinema brain-prime
-https://asciinema.org/a/UqN9kMz1B5anbX2bntS1fIUv0
+![asciicast](https://github.com/gordienkoas/python-project-49/blob/main/asciinema/prime2.gif)
 
 
