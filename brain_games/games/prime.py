@@ -1,4 +1,4 @@
-from brain_games.games_const import DESCRIPT_prime
+from brain_games.games_const import PRIME_INSTRUCTION
 from brain_games.utility import get_random_number
 from brain_games.engine import play
 
@@ -27,4 +27,4 @@ def generate_question_and_answer():
 
 
 def run_prime_game():
-    play(generate_question_and_answer, DESCRIPT_prime)
+    play(generate_question_and_answer, PRIME_INSTRUCTION)

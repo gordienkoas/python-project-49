@@ -1,4 +1,4 @@
-from brain_games.games_const import DESCRIPTION_even
+from brain_games.games_const import EVEN_INSTRUCTION
 from brain_games.utility import get_random_number
 from brain_games.engine import play
 
@@ -20,4 +20,4 @@ def generate_question_and_answer():
 
 
 def run_even_game():
-    play(generate_question_and_answer, DESCRIPTION_even)
+    play(generate_question_and_answer, EVEN_INSTRUCTION)
