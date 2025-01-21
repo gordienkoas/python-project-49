@@ -3,22 +3,20 @@
 
 <a href="https://codeclimate.com/github/gordienkoas/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/8726b1ed6c0953930392/maintainability" /></a>
 
-# Используемый стэк:     
-
-Package operations:
+# Package operations:
   - flake8 (7.1.1)
   - prompt (0.4.1)
 
-### «Игры разума» — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново. Игры:
+### “Mind Games” is a set of five console games built on the principle of popular mobile applications for brain training. Each game asks questions that must be answered correctly. After three correct answers, the game is considered completed. Wrong answers end the game and prompt you to play it again. Games:
 
-    1) Калькулятор. Арифметические выражения, которые необходимо вычислить
-    2) Прогрессия. Поиск пропущенных чисел в последовательности чисел
-    3) Определение четного числа
-    4) Определение наибольшего общего делителя
-    5) Определение простого числа
+    1) Calculator. Arithmetic expressions to be evaluated
+    2) Progression. Finding missing numbers in a sequence of numbers
+    3) Determination of an even number
+    4) Determination of the greatest common divisor
+    5) Definition of a prime number
 
-Цель данного проекта:
-Погрузиться в экосистему Python и научиться настраивать рабочее окружение. Поработать с flake8 (линтером, анализатором качества кода) и менеджером зависимостей poetry. Понять, чем git отличается от GitHub, поработать с внешними репозиториями. Получить опыт построения архитектуры полноценного приложения и написания чистого кода.
+The purpose of this project:
+Dive into the Python ecosystem and learn how to set up a working environment. Work with flake8 (linter, code quality analyzer) and poetry dependency manager. Understand how git differs from GitHub, work with external repositories. Gain experience in building the architecture of a full-fledged application and writing clean code.
 
 INSTALLATION:
 
