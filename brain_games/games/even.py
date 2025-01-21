@@ -10,12 +10,7 @@ def is_even(num):
 def generate_question_and_answer():
     number = get_random_number(1, 100)
     question = f'{number} is even. yes or no?'
-
-    if is_even(number):
-        correct_answer = 'yes'
-    else:
-        correct_answer = 'no'
-
+    correct_answer = 'yes' if is_even(number) else 'no'
     return question, correct_answer
 
 

@@ -15,8 +15,7 @@ def get_rnd_math_sign_and_result(first_num, second_num):
 
 
 def generate_question_and_answer():
-    first_num = get_random_number(1, 10)
-    second_num = get_random_number(1, 10)
+    first_num, second_num = get_random_number(1, 10), get_random_number(1, 10)
     sign, correct_answer = get_rnd_math_sign_and_result(first_num, second_num)
     question = f"{first_num} {sign} {second_num}?"
     return question, str(correct_answer)
