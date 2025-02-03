@@ -2,7 +2,7 @@ import random
 
 
 from brain_games.games_const import CALC_INSTRUCTION
-from brain_games.engine import play
+from brain_games.engine import run_game
 from brain_games.utility import get_random_number
 
 
@@ -22,4 +22,4 @@ def generate_question_and_answer():
 
 
 def run_calc_game():
-    play(generate_question_and_answer, CALC_INSTRUCTION)
+    run_game(generate_question_and_answer, CALC_INSTRUCTION)

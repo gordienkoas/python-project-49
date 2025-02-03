@@ -1,6 +1,6 @@
 from brain_games.utility import get_random_number
 from brain_games.games_const import PROGRESSION_INSTRUCTION
-from brain_games.engine import play
+from brain_games.engine import run_game
 
 
 def generate_question_and_answer():
@@ -20,4 +20,4 @@ def generate_question_and_answer():
 
 
 def run_progr_game():
-    play(generate_question_and_answer, PROGRESSION_INSTRUCTION)
+    run_game(generate_question_and_answer, PROGRESSION_INSTRUCTION)

@@ -1,6 +1,6 @@
 from math import gcd
 from brain_games.utility import get_random_number
-from brain_games.engine import play
+from brain_games.engine import run_game
 
 
 from brain_games.games_const import GCD_INSTRUCTION
@@ -15,4 +15,4 @@ def generate_question_and_answer():
 
 
 def run_gcd_game():
-    play(generate_question_and_answer, GCD_INSTRUCTION)
+    run_game(generate_question_and_answer, GCD_INSTRUCTION)

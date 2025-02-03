@@ -3,7 +3,7 @@ import prompt
 from brain_games.games_const import ROUNDS
 
 
-def play(generate_question_and_answer, game_instruction):
+def run_game(generate_question_and_answer, game_instruction):
     name = prompt.string("Welcome to the Brain Games!\nMay I have your name? ")
     print(f"Hello, {name}\n{game_instruction}")
 
